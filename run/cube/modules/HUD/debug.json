@@ -1,0 +1,11 @@
+{
+  "Name": "debug",
+  "Toggle": true,
+  "HudXPos": 408.0,
+  "HudYPos": 4.0,
+  "HudWidth": 200.0,
+  "HudHeight": 70.0,
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

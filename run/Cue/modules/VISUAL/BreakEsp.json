@@ -1,0 +1,11 @@
+{
+  "Name": "BreakEsp",
+  "Toggle": true,
+  "Settings": {
+    "Visible": true,
+    "Range": 5.0
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

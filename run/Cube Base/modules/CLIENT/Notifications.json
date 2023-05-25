@@ -1,0 +1,11 @@
+{
+  "Name": "Notifications",
+  "Toggle": true,
+  "Settings": {
+    "Visible": true,
+    "Speed": 0.27444133
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "AutoConfig",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "Server": "pvpdotcc"
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

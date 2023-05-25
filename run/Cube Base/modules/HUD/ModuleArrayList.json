@@ -1,0 +1,16 @@
+{
+  "Name": "ModuleArrayList",
+  "Toggle": true,
+  "HudXPos": 610.0,
+  "HudYPos": 11.0,
+  "HudWidth": 73.0,
+  "HudHeight": 100.0,
+  "Settings": {
+    "Align": "Right",
+    "Sort": "Top",
+    "Color": "Fade"
+  },
+  "CommonSettings": {
+    "KeyBind": 40
+  }
+}

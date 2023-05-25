@@ -1,0 +1,11 @@
+{
+  "Name": "AntiFPS",
+  "Toggle": true,
+  "Settings": {
+    "Visible": true,
+    "FPS": 16
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "Surround",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "Packet": true,
+    "Rotate": true,
+    "AutoCenter": true,
+    "SuperSpace": false,
+    "HeadProtect": false
+  },
+  "CommonSettings": {
+    "KeyBind": 34
+  }
+}

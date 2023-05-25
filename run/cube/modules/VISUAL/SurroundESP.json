@@ -1,0 +1,15 @@
+{
+  "Name": "SurroundESP",
+  "Toggle": true,
+  "Settings": {
+    "Visible": true,
+    "Outline": true,
+    "LineWidth": 0.6320698,
+    "Burrow": true,
+    "BurrowName": true,
+    "RenderFriend": true
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

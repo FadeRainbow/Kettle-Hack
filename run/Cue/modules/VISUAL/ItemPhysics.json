@@ -1,0 +1,11 @@
+{
+  "Name": "ItemPhysics",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "Scale": 3.0
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

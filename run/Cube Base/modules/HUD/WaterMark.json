@@ -1,0 +1,14 @@
+{
+  "Name": "WaterMark",
+  "Toggle": true,
+  "HudXPos": 13.0,
+  "HudYPos": 25.0,
+  "HudWidth": 117.0,
+  "HudHeight": 19.0,
+  "Settings": {
+    "Size": 2.1851315
+  },
+  "CommonSettings": {
+    "KeyBind": 27
+  }
+}

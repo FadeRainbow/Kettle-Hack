@@ -1,0 +1,11 @@
+{
+  "Name": "TargetHud",
+  "Toggle": true,
+  "HudXPos": 393.0,
+  "HudYPos": 44.0,
+  "HudWidth": 200.0,
+  "HudHeight": 70.0,
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

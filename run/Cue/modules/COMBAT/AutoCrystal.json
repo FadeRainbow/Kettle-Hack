@@ -1,0 +1,40 @@
+{
+  "Name": "AutoCrystal",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "Switch": true,
+    "Silent": false,
+    "MultiThread": false,
+    "Machine Gun": false,
+    "Players": true,
+    "Hostiles": false,
+    "Passives": false,
+    "Place": true,
+    "Break": true,
+    "Instant": true,
+    "Range": 5,
+    "MinimumDmg": 6,
+    "SelfDamage": 12,
+    "AntiWeakness": false,
+    "Multi-Place": false,
+    "Rotate": true,
+    "Manual-Timer": false,
+    "Ray-trace": false,
+    "Predict": false,
+    "PacketPlace": true,
+    "PacketExplode": false,
+    "Swing": "Main",
+    "BreakSpeed": 10,
+    "PlaceSpeed": 10,
+    "Thinking": true,
+    "Cancel Crystal": true,
+    "Inhibit": true,
+    "Outline": true,
+    "Alpha": 150,
+    "Target Hud": true
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

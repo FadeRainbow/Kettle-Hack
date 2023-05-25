@@ -1,0 +1,14 @@
+{
+  "Name": "WaterMark",
+  "Toggle": true,
+  "HudXPos": 19.0,
+  "HudYPos": 34.0,
+  "HudWidth": 54.0,
+  "HudHeight": 9.0,
+  "Settings": {
+    "Scala": 1.0
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

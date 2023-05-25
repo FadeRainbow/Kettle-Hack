@@ -1,0 +1,11 @@
+{
+  "Name": "ReverseStep",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "Power": 10.0
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

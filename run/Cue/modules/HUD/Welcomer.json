@@ -1,0 +1,14 @@
+{
+  "Name": "Welcomer",
+  "Toggle": false,
+  "HudXPos": 10.0,
+  "HudYPos": 348.0,
+  "HudWidth": 49.0,
+  "HudHeight": 9.0,
+  "Settings": {
+    "Size": 1.0
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}

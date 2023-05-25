@@ -1,0 +1,17 @@
+{
+  "Name": "ClickGui",
+  "Toggle": true,
+  "Settings": {
+    "Visible": true,
+    "Rainbow": false,
+    "Red": 230,
+    "Green": 111,
+    "Blue": 111,
+    "RainbowSpeed": 1.0,
+    "Saturation": 0.65,
+    "Brightness": 1.0
+  },
+  "CommonSettings": {
+    "KeyBind": 54
+  }
+}

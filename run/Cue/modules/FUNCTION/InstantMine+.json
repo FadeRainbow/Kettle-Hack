@@ -1,0 +1,14 @@
+{
+  "Name": "InstantMine+",
+  "Toggle": false,
+  "Settings": {
+    "Visible": true,
+    "GhostHand": true,
+    "DoubleBreak": true,
+    "Render": true,
+    "Outline": true
+  },
+  "CommonSettings": {
+    "KeyBind": 0
+  }
+}
