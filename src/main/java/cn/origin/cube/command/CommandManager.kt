@@ -5,7 +5,6 @@ import cn.origin.cube.command.commands.HelpCommand
 import cn.origin.cube.command.commands.ModuleBindCommand
 import cn.origin.cube.command.commands.PreFixCommand
 import cn.origin.cube.command.commands.ReloadCommand
-import cn.origin.cube.module.modules.client.ClickGui
 import cn.origin.cube.utils.client.ChatUtil
 import java.util.*
 

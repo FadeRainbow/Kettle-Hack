@@ -5,29 +5,16 @@ import cn.origin.cube.Cube;
 import cn.origin.cube.module.Category;
 import cn.origin.cube.module.HudModule;
 import cn.origin.cube.module.HudModuleInfo;
-import cn.origin.cube.module.modules.visual.NameTags;
-import cn.origin.cube.notification.Notification;
-import cn.origin.cube.settings.FloatSetting;
-import cn.origin.cube.utils.player.EntityUtil;
-import cn.origin.cube.utils.player.PlayerUtil;
-import cn.origin.cube.utils.render.ColorUtils;
 import cn.origin.cube.utils.render.KotlinRender114514D;
 import cn.origin.cube.utils.render.Render2DUtil;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
-import net.minecraft.client.gui.inventory.GuiInventory;
-import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.item.ItemStack;
-import org.lwjgl.opengl.GL11;
 
 
 import java.awt.*;
 import java.util.Comparator;
 
 import static cn.origin.cube.utils.player.EntityUtil.getHealth;
-import static org.lwjgl.opengl.GL11.GL_LINE_SMOOTH;
 
 @HudModuleInfo(name = "TargetHud", x = 114, y = 114, descriptions = "show target", category = Category.HUD)
 public class TargetHUD extends HudModule {

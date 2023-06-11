@@ -3,7 +3,6 @@ package cn.origin.cube.guis
 import cn.origin.cube.Cube
 import cn.origin.cube.guis.buttons.ModuleButton
 import cn.origin.cube.module.Category
-import cn.origin.cube.module.modules.client.ClickGui
 import cn.origin.cube.utils.render.Render2DUtil
 import java.awt.Color
 import java.util.*

@@ -1,9 +1,6 @@
 package cn.origin.cube.module;
 
-import cn.origin.cube.Cube;
 import cn.origin.cube.event.events.world.Render3DEvent;
-import cn.origin.cube.module.huds.NotificationModule;
-import cn.origin.cube.notification.Notification;
 import cn.origin.cube.notification.NotificationManager;
 import cn.origin.cube.settings.*;
 import cn.origin.cube.utils.client.ChatUtil;
@@ -78,14 +75,14 @@ public abstract class AbstractModule {
     public void enable() {
         this.toggle = true;
         MinecraftForge.EVENT_BUS.register(this);
-        NotificationManager.moduleToggle(this,true);
+        NotificationManager.INSTANCE.moduleToggle(this,true);
         this.onEnable();
     }
 
     public void disable() {
         this.toggle = false;
         MinecraftForge.EVENT_BUS.unregister(this);
-        NotificationManager.moduleToggle(this,false);
+        NotificationManager.INSTANCE.moduleToggle(this,false);
         this.onDisable();
     }
 

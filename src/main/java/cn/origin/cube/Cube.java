@@ -9,7 +9,6 @@ import cn.origin.cube.guis.HudEditorScreen;
 import cn.origin.cube.managers.ConfigManager;
 import cn.origin.cube.managers.FriendManager;
 import cn.origin.cube.module.ModuleManager;
-import cn.origin.cube.module.huds.NotificationModule;
 import cn.origin.cube.notification.NotificationManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -37,7 +36,7 @@ public class Cube {
     public static ModuleManager moduleManager = null;
     public static ConfigManager configManager = null;
     public static CommandManager commandManager = null;
-    public static NotificationManager notificationManager = null;
+
 
     public static String commandPrefix = ".";
 
@@ -66,6 +65,5 @@ public class Cube {
         hudEditor = new HudEditorScreen();
         configManager = new ConfigManager();
         commandManager = new CommandManager();
-        notificationManager = new NotificationManager();
     }
 }

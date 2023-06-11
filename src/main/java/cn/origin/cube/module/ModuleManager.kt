@@ -7,13 +7,11 @@ import cn.origin.cube.module.huds.TargetHUD
 import cn.origin.cube.module.huds.WaterMark
 import cn.origin.cube.module.modules.client.ClickGui
 import cn.origin.cube.module.modules.client.HudEditor
+import cn.origin.cube.module.modules.client.NullAura
 import cn.origin.cube.module.modules.combat.KillAura
 import cn.origin.cube.module.modules.combat.Replenish
 import cn.origin.cube.module.modules.combat.Surround
-import cn.origin.cube.module.modules.function.AntiFps
-import cn.origin.cube.module.modules.function.FakeKick
-import cn.origin.cube.module.modules.function.MiddleClick
-import cn.origin.cube.module.modules.function.NoRotate
+import cn.origin.cube.module.modules.function.*
 import cn.origin.cube.module.modules.movement.AutoWalk
 import cn.origin.cube.module.modules.movement.Sprint
 import cn.origin.cube.module.modules.visual.*
@@ -29,6 +27,7 @@ class ModuleManager {
         //Client
         registerModule(ClickGui())
         registerModule(HudEditor())
+        registerModule(NullAura)
 
         //Combat
         registerModule(Surround())
@@ -40,6 +39,7 @@ class ModuleManager {
         registerModule(FakeKick())
         registerModule(NoRotate())
         registerModule(AntiFps())
+        registerModule(OpenGLBoom)
 
         //Movement
         registerModule(Sprint())

@@ -5,6 +5,7 @@ import cn.origin.cube.Cube;
 import cn.origin.cube.module.Category;
 import cn.origin.cube.module.Module;
 import cn.origin.cube.module.ModuleInfo;
+import cn.origin.cube.notification.NotificationManager;
 import cn.origin.cube.settings.FloatSetting;
 
 @ModuleInfo(name = "Notifications", category = Category.CLIENT, descriptions = "Show notification")
@@ -21,6 +22,6 @@ public class NotificationModule extends Module {
 
     @Override
     public void onRender2D() {
-        Cube.notificationManager.draw();
+        NotificationManager.INSTANCE.draw();
     }
 }
